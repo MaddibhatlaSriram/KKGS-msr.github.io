@@ -116,3 +116,69 @@ footer .contact{
     padding-left: 30%;
     width: 25%;
 }
+@media (max-width:500px){
+#logo{
+    font-size: 240%;
+}
+header{
+    height: 15%;
+}
+h1{
+    font-size: 165%;
+}
+.slider{
+    height: 30%;
+}
+.items #head{
+    font-size: larger;
+    font-weight: bolder;
+}
+.items #items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.items #items .item1{
+    margin: 3%;
+    padding: 1%;
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    border-radius: 30px;
+    font-size: x-large;
+    text-align: center;
+    border: solid 3px black;
+    transition: 1s;
+}
+.items #items .item1 img{
+    height: 150px;
+    width: 150px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.items #items .item1:hover{
+    border: solid 3px blue;
+    color: blue;
+}
+footer{
+    height: fit-content;
+    background: rgb(27, 30, 58);
+    color: white;
+    font-size: larger;
+}
+footer .about{
+    width: 100%;
+    font-size: 100%;
+}
+footer .about h1{
+    font-size: 150%;
+}
+footer .contact{
+    padding-left: 0%;
+    width: 100%;
+}
+footer .contact h2{
+    padding-top: 4%;
+    padding-left: 0%;
+    padding-bottom: 0%;
+}
+}
